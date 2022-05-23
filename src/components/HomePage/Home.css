@@ -1,0 +1,9 @@
+.homecontainer{
+    
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(172, 242, 248);
+    box-shadow: 1px 1px 10px 1px rgb(179, 182, 182);
+}

@@ -1,0 +1,45 @@
+.usercontainer{
+    display: flex;
+    justify-content: center;
+    min-height: 20vh;
+    align-items: center;
+    padding:100px;
+}
+.mycontainer{
+    display:block;
+    border:1px solid grey;
+    min-height: 25vh;
+    justify-content: center;
+    align-content: center;
+    padding:100px;
+}
+.myinfo{
+    list-style: none;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+/*Sign Up */
+.signupmain{
+    display: flex;
+    justify-content: center;
+    min-height: 20vh;
+    align-items: center;
+    padding:100px;
+}
+.signupcontainer{
+    display:block;
+    border:1px solid grey;
+    min-height: 20vh;
+    justify-content: center;
+    align-content: center;
+    padding:50px;
+}
+.signupcont{
+  
+  padding:15px;
+  margin:5%;
+  text-align: center;
+  
+}
