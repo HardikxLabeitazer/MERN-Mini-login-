@@ -78,4 +78,26 @@ const remove =  async (params,credentials)=>{
     }
 }
 
+const list2 = async (signal)=>{
+
+    try{
+
+        let response = await fetch('/api/users/_id',{
+
+            method:'GET',
+
+            signal:signal,
+
+        })
+
+        return await response.json()
+
+    }catch(err){
+
+        console.log(err);
+
+    }
+
+}
+
 module.exports= {create,list,read,update,remove}
