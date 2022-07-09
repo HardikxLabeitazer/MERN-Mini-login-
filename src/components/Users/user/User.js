@@ -29,7 +29,7 @@ export default function User() {
      <div className='usercontainer'>
          <div className='mycontainer'>
           <ul>
-             
+             All the users on the platform
         {
             users.map((item,i)=>{
                 return <li className='myinfo' key={i}>{item.name}</li>
