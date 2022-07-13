@@ -5,6 +5,14 @@ export default function Home() {
     <div className='homecontainer'>
         <a style={{textDecoration:'none',color:'black'}}href="/"><h2>Welcome to the Skeleton Login App</h2></a>
     </div>
+<div className='homecontainer'>
+
+        <a style={{textDecoration:'none',color:'black'}}href="/"><h2>Welcome to the Skeleton Login App</h2></a>
+
+    </div>
+<div className='homecontainer'>
+        <a style={{textDecoration:'none',color:'black'}}href="/"><h2>Welcome to the Skeleton Login App</h2></a>
+    </div>
   )
 }
 
